@@ -1,0 +1,34 @@
+  <div class="container">
+<header-directive></header-directive>
+<!-- A form that for adding and editing a product -->
+		<form>
+		<p>
+			<label>Model:</label>
+			<input ng-model="product.Model" type="text">
+		</p>
+		<p>
+			<label>Solar Panel:</label>
+			<input ng-model="product.SolarPanel" type="text">
+		</p>
+      <p>
+			<label>Controller:</label>
+			<input ng-model="product.Controller" type="text">
+		</p>
+		<p>
+			<label>Inverter:</label>
+			<input ng-model="product.Inverter" type="text">
+		</p>
+      <p>
+			<label>Battery:</label>
+			<input ng-model="product.Battery" type="text">
+		</p>
+		<p>
+			<label>Daily Output:</label>
+			<input ng-model="product.DailyOutput" type="text">
+		</p>
+		<p>
+			<button type="button" ng-click="save()">save</button>
+		</p>
+	</form>
+
+	</div>

@@ -1,0 +1,34 @@
+  <div class="container">
+<header-directive></header-directive>
+<!-- A table to showcase the products' information -->
+    <table class="products">
+      <tr>
+        <th>Model</th>
+        <th>Solar Panel</th>
+        <th>Controller</th>
+        <th>Inverter</th>
+        <th>Battery</th>
+        <th>Daily Output</th>
+        <th>Edit</th>
+        <th>Delete</th>
+      </tr>
+      <!-- A row to show the product's information -->
+      <tr ng-repeat='product in products'>
+        <td ng-bind="product.Model"></td>
+        <td ng-bind="product.SolarPanel"></td>
+        <td ng-bind="product.Controller"></td>
+        <td ng-bind="product.Inverter"></td>
+        <td ng-bind="product.Battery"></td>
+        <td ng-bind="product.DailyOutput"></td>
+        <td>
+          <!-- A button to linking to edit page -->
+          <button><a href="/#/product/{{product._id}}">edit</a></button>
+        </td>
+        <td>
+          <!-- A button to linking to delete page -->
+          <button><a href="/#/product/delete/{{product._id}}">delete</a></button>
+        </td>
+      </tr>
+		</table>
+
+	</div>

@@ -1,0 +1,29 @@
+  <div class="container">
+<header-directive></header-directive>
+<h2>
+    Are you sure you want to delete this product?
+</h2>
+<table class="products">
+  <tr>
+    <th>Model</th>
+    <th>Solar Panel</th>
+    <th>Controller</th>
+    <th>Inverter</th>
+    <th>Battery</th>
+    <th>Daily Output</th>
+  </tr>
+  <!-- Showing the deleting item's information -->
+  <tr>
+    <td>{{product.Model}}</td>
+    <td>{{product.SolarPanel}}</td>
+    <td>{{product.Controller}}</td>
+    <td>{{product.Inverter}}</td>
+    <td>{{product.Battery}}</td>
+    <td>{{product.DailyOutput}}</td>
+  </tr>
+</table>
+<!-- Delete the product -->
+<button ng-click="delete()">Yes, Delete</button>
+<button><a href="/#/">No, Go Back</a></button>
+
+	</div>
