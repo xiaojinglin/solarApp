@@ -12,11 +12,10 @@ SolarApp requires the following to run:
 node.js
 npm
 mongodb
+
 Contributing
 Fork it
 Create your feature branch
 Commit your changes
 Push to the branch
 Create new Pull Request
-License
-This project is licensed under the MIT License - see the LICENSE.md file for details
