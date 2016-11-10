@@ -1,3 +1,4 @@
+'use strict';
 // Declaration of app module
 var app = angular.module('Solar',['ngResource', 'ngRoute']);
 

@@ -1,4 +1,5 @@
-//Importing Express and getting the router object 
+'use strict';
+//Importing Express and getting the router object
 var express = require('express');
 var router = express.Router();
 
