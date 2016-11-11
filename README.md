@@ -19,8 +19,9 @@ This is an app that showcases solar products' information. It's based on Mongodb
 <h2>Usage</h2>
 <ol>
   <li>Clone or download it</li>
-  <li>Install Dependencies</li>
   <li>Run Mongodb</li>
+  <li>Install Dependencies(npm install)</li>
+  <li>Run the Application(node ./bin/www)</li>
   <li>Launch your browser and navigate to: http://localhost:3000</li>
 </ol>
 
