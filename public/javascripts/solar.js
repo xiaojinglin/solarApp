@@ -4,7 +4,7 @@ var app = angular.module('Solar',['ngResource', 'ngRoute']);
 
 //Using the config method of the app module to provide configuration for our application
 app.config(['$routeProvider', function($routeProvider){
-    //Using the when method of $routeProvider to configure a route
+    //Using the when method of $routeProvider to configure routes
     $routeProvider
         .when('/', {
             templateUrl: 'partials/home.html',
@@ -27,14 +27,14 @@ app.config(['$routeProvider', function($routeProvider){
         });
 }]);
 
-// A directive that useing for the website
+// A directive that using for the website
 app.directive("headerDirective", function() {
   return {
     templateUrl : 'templates/header.html',
   };
 });
 
-//A controller for home
+//A controller for home view
 app.controller('HomeCtrl', ['$scope', '$resource',function($scope, $resource){
     var Products = $resource('/api/products');
     Products.query(function(products){
@@ -42,7 +42,7 @@ app.controller('HomeCtrl', ['$scope', '$resource',function($scope, $resource){
     });
 }]);
 
-//A controller for adding product
+//A controller to handle the click event of the Save button
 app.controller('AddProductCtrl', ['$scope', '$resource', '$location',function($scope, $resource, $location){
     $scope.save = function(){
         var Products = $resource('/api/products');
@@ -52,7 +52,7 @@ app.controller('AddProductCtrl', ['$scope', '$resource', '$location',function($s
     };
   }]);
 
-//A controller for editing product
+//A controller to handle the click event of the Edit button
 app.controller('EditProductCtrl', ['$scope', '$resource', '$location', '$routeParams',
   function($scope, $resource, $location, $routeParams){
     var Products = $resource('/api/products/:id', { id: '@_id' }, {
@@ -68,7 +68,7 @@ app.controller('EditProductCtrl', ['$scope', '$resource', '$location', '$routePa
       };
   }]);
 
-//A controller for deleting product
+//A controller to handle the click event of the Delete button
 app.controller('DeleteProductCtrl', ['$scope', '$resource', '$location', '$routeParams',
     function($scope, $resource, $location, $routeParams){
         var Products = $resource('/api/products/:id');

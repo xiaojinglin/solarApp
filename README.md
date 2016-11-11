@@ -1,5 +1,5 @@
 <h2>SolarApp</h2>
-This is an app that showcase solar products' information. It's based on Mongodb+Express.js+Angular+Node.js.
+This is an app that showcases solar products' information. It's based on Mongodb+Express.js+Angular+Node.js.
 <img src="public/images/solar1.png" >
 <p>When clicking the "Add product" button, you can add new product to the list:</p>
 <img src="public/images/solar2.png" >
@@ -9,11 +9,21 @@ This is an app that showcase solar products' information. It's based on Mongodb+
 <img src="public/images/solar4.png" >
 <h2>Requirements</h2>
 <p>SolarApp requires the following to run:</p>
+
+<h2>Requirements</h2>
 <ul>
   <li>node.js</li>
   <li>npm</li>
   <li>mongodb</li>
 </ul>
+
+<h2>Usage</h2>
+<ol>
+  <li>Clone or download it</li>
+  <li>Install Dependencies</li>
+  <li>Run Mongodb</li>
+  <li>Launch your browser and navigate to: http://localhost:3000</li>
+</ol>
 
 <h2>Contributing</h2>
 <ol>

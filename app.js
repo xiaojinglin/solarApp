@@ -13,7 +13,7 @@ var products = require('./routes/products');
 
 var app = express();
 
-// view engine setup
+// View engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
 
@@ -23,7 +23,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-//using the modules for routes
+//Using the modules for routes
 app.use('/', routes);
 app.use('/users', users);
 app.use('/api/products', products);
