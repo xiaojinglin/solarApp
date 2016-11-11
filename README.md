@@ -7,10 +7,9 @@ This is an app that showcases solar products' information. It's based on Mongodb
 <img src="public/images/solar3.png" >
 <p>When clicking the "delete" button, you can delete the current product:</p>
 <img src="public/images/solar4.png" >
-<h2>Requirements</h2>
-<p>SolarApp requires the following to run:</p>
 
 <h2>Requirements</h2>
+<p>SolarApp requires the following to run:</p>
 <ul>
   <li>node.js</li>
   <li>npm</li>
