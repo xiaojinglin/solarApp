@@ -1,21 +1,25 @@
-SolarApp
+<h2>SolarApp</h2>
 This is an app that showcase solar products' information. It's based on Mongodb+Express.js+Angular+Node.js.
 <img src="public/images/solar1.png" >
-When clicking the "Add product" button, you can add new product to the list:
+<p>When clicking the "Add product" button, you can add new product to the list:</p>
 <img src="public/images/solar2.png" >
-When clicking the "edit" button, you can edit the current product:
+<p>When clicking the "edit" button, you can edit the current product:<p>
 <img src="public/images/solar3.png" >
-When clicking the "delete" button, you can delete the current product:
+<p>When clicking the "delete" button, you can delete the current product:</p>
 <img src="public/images/solar4.png" >
-Requirements
-SolarApp requires the following to run:
-node.js
-npm
-mongodb
+<h2>Requirements</h2>
+<p>SolarApp requires the following to run:</p>
+<ul>
+  <li>node.js<li>
+  <li>npm</li>
+  <li>mongodb</li>
+</ul>
 
-Contributing
-Fork it
-Create your feature branch
-Commit your changes
-Push to the branch
-Create new Pull Request
+<h2>Contributing</h2>
+<ol>
+  <li>Fork it</li>
+  <li>Create your feature branch</li>
+  <li>Commit your changes</li>
+  <li>Push to the branch</li>
+  <li>Create new Pull Request</li>
+</ol>
