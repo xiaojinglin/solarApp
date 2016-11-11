@@ -10,7 +10,7 @@ This is an app that showcase solar products' information. It's based on Mongodb+
 <h2>Requirements</h2>
 <p>SolarApp requires the following to run:</p>
 <ul>
-  <li>node.js<li>
+  <li>node.js</li>
   <li>npm</li>
   <li>mongodb</li>
 </ul>
