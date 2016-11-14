@@ -52,7 +52,7 @@ app.controller('AddProductCtrl', ['$scope', '$resource', '$location',function($s
     };
   }]);
 
-//A controller to handle the click event of the Edit button
+//A controller to handle the click event of the Editing page
 app.controller('EditProductCtrl', ['$scope', '$resource', '$location', '$routeParams',
   function($scope, $resource, $location, $routeParams){
     var Products = $resource('/api/products/:id', { id: '@_id' }, {
